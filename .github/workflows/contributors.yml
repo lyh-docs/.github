@@ -1,8 +1,8 @@
 name: generate-contributors
 
 on:
-  # schedule:
-  #   - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 22 * * *"
   workflow_dispatch:
 
 jobs:
